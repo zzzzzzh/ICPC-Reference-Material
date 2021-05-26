@@ -7,6 +7,7 @@ Beihang University `Nonsense Time` Team
 # Usage
 
 link your `src` directory.
+
 `src` structure:
 ```
 src
@@ -30,6 +31,8 @@ src
 │   └── Graph.tex
 ...
 ```
+
 Run "make" in shell and have fun.
-Use "<TeX>" "</TeX>" in the beginning of your code to escape TeX.
+
+Use "`<TeX>`" "`</TeX>`" in the beginning of your code to escape TeX.
 
