@@ -22,7 +22,7 @@ def gen_section(name, dirname):
     global line_count
     sect = []
     #sect.append("\\section{%s}" % name)
-    sect.append("\\section{%s}" % name.encode('utf-8'))
+    sect.append("\\section{%s}" % name)
 
     files = []
     for src in os.listdir(u"./%s/" % dirname):
@@ -49,7 +49,7 @@ def gen_section(name, dirname):
         if title.endswith('.generator'):
             title = title[:-len('.generator')]
             isGenerator = True
-        sect.append("\\subsection{%s}" % title.encode('utf-8'))
+        sect.append("\\subsection{%s}" % title)
 
         #for line in code.split("\n"):
         #    sect.append("\\createlinenumber{%d}{%s}" % (line_count, digest_line(line)))
