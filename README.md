@@ -1,8 +1,8 @@
 # ICPC Reference Material
 
-The ICPC 2019 World Finals
+The ICPC 2020 World Finals
 
-Beihang University `Nonsense Time` Team
+Beihang University `Tranquility` Team
 
 # Usage
 
